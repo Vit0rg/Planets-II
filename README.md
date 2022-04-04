@@ -20,7 +20,7 @@ Flexbox, variáveis, calc, perspectiva, transform-style, keyframes, transition, 
 Vit0rg
 
 ### Licença:
-[MIT](https://github.com/Vit0rg/Planets-II/blob/master/LICENSE.md)
+[MIT](https://github.com/Vit0rg/Planets-II/blob/master/LICENSE)
 
 **EN-US**
 # Planets II
@@ -44,4 +44,4 @@ Flexbox, variables, calc, perspective, transform-style, keyframes, transition, d
 Vit0rg
 
 ### License:
-[MIT](https://github.com/Vit0rg/Planets-II/blob/master/LICENSE.md)
+[MIT](https://github.com/Vit0rg/Planets-II/blob/master/LICENSE)
