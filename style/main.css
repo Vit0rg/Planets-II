@@ -1,0 +1,153 @@
+body
+{
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  background: url("../img/Espaço.jpg") hsl(0, 0%, 0%);
+  scrollbar-color: hsl(0, 0%, 0%, 0);
+}
+
+.wrapper
+{
+  height: 100vh;
+  width: 100%;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 4504px;
+}
+
+header
+{
+  height: 100%;
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  transform-style: preserve-3d;
+  z-index: -1;
+  background-color: hsl(273, 100%, 0%, 5%);
+}
+
+.astro
+{
+  position: absolute;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  border-radius: 100%;
+}
+
+#mercurio
+{
+  height: 40px;
+  width: 40px;
+  left: 2%;
+  transform: translateZ(-58px);
+  background-color: hsl(0, 0%, 20%, 0.7);
+  animation: translação 7.6s infinite linear forwards;
+}
+
+#venus
+{ 
+  height: 120px;
+  width: 120px;
+  left: 5%;
+  transform: translateZ(-108px);
+  background-color: rgba(233, 142, 63, 0.4);
+  animation: translação 19.35s infinite linear forwards;
+}
+
+#terra
+{
+  height: 160px;
+  width: 160px;
+  left: 14%;
+  transform: translateZ(-150px);
+  animation: translação 31.53s infinite linear forwards;
+}
+
+#marte
+{
+  height: 50px;
+  width: 50px;
+  left: 26%;
+  transform: translateZ(-220px);
+  background-color: hsl(12, 100%, 30%);
+  animation: translação 59.35s infinite linear forwards;
+}
+
+#jupiter
+{
+  transform: translateZ(-778px);
+  height: 720px;
+  width: 720px;
+  animation: translação 374.02s infinite linear forwards;
+}
+
+#saturno
+{ 
+  height: 600px;
+  left: -55%;
+  transform: translateZ(-1429px);
+  border-radius: 0;
+  animation: translação 91.54s infinite 5s linear forwards;
+}
+
+#urano
+{
+  height: 510px;
+  width: 510px;
+  transform: translateZ(-2871px);
+  animation: translação 264.02s infinite linear forwards;
+}
+
+#netuno
+{
+  height: 500px;
+  width: 500px;
+  transform: translateZ(-4504px);
+  animation: translação 517.35s infinite linear forwards;
+}
+
+header h1
+{
+  width: 100%;
+  font-size: calc(16px + 20vw);
+  text-align: center;
+  text-shadow: 0 0 1rem hsl(273, 100%, 0%);
+  color: hsl(0, 100%, 100%);
+}
+
+main section
+{
+  font-size: 2rem;
+  padding: 2rem;
+  background-color: hsl(273, 100%, 0%, 70%);
+  color: hsl(273, 100%, 100%);
+  border-radius: 2rem;
+  transition: all ease-in-out 0.75s;
+}
+
+main section:hover
+{
+  font-size: 2.5rem;
+  background-color: hsl(273, 100%, 0%, 90%);
+  border: 0.3rem solid hsl(0, 100%, 100%);
+}
+
+@keyframes translação 
+{
+  0%
+  {
+    left: -50%;
+    transform: rotate3d(0deg);
+    z-index: 0;
+  }
+  100%
+  {
+    left: 100%;
+    transform: rotate3d(360deg);
+    z-index: 0;
+    filter: brightness(0.1);
+  }  
+}
