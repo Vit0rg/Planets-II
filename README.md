@@ -3,7 +3,7 @@
 ## Versão alternativa do repositório Planets(projeto pessoal)
 
 ### Sobre o projeto:
-Página-estudo sobre perspectiva, animação e responsividade com baseada em projeto anterior [Planets](https://github.com/Vit0rg/Planets).
+Página-estudo sobre perspectiva, animação e responsividade com base em projeto anterior [Planets](https://github.com/Vit0rg/Planets).
 A página faz uso das técnicas e lógica apresentada no vídeo [This Simple Trick Makes Your Website 83% Better Looking](https://youtu.be/mxHoPYFsTuk).
 Dados retirados da [NASA](https://solarsystem.nasa.gov/planets/overview/), recomendo a leitura.
 
